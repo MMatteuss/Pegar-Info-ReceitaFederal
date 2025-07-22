@@ -88,6 +88,4 @@ Para dúvidas ou sugestões:
 
 ---
 
-🚀 **Feito para ajudar Telecoms a subir dados de forma ágil e confiável!**
-
-```
+**Feito para subir dados de forma ágil**
