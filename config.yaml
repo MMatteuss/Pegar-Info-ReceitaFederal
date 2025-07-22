@@ -1,0 +1,97 @@
+  base_url: 'http://200.152.38.155/CNPJ/dados_abertos_cnpj/'
+
+  # Incoming CSV Settings
+  csv_sep: ';'
+  csv_dec: ','
+  csv_quote: '"'
+  csv_enc: 'cp1252'
+
+  # Export format: Choose between 'csv', 'parquet', 'json', or 'feather'
+  export_format: 'csv'
+
+  # Data type definitions for each table
+  dtypes:
+    empresas:
+      cnpj_basico: "str"
+      razao_social: "str"
+      natureza_juridica: "str"
+      qualificacao_do_responsavel: "str"
+      capital_social: "str"
+      porte_da_empresa: "str"
+      ente_federativo_resposavel: "str"
+
+    estabelecimentos:
+      cnpj_basico: "str"
+      cnpj_ordem: "str"
+      cnpj_dv: "str"
+      identificador_matriz_filial: "str"
+      nome_fantasia: "str"
+      situacao_cadastral: "str"
+      data_situacao_cadastral: "str"
+      motivo_situacao_cadastral: "str"
+      nome_da_cidade_no_exterior: "str"
+      pais: "str"
+      data_de_inicio_da_atividade: "str"
+      cnae_fiscal_principal: "str"
+      cnae_fiscal_secundaria: "str"
+      tipo_de_logradouro: "str"
+      logradouro: "str"
+      numero: "str"
+      complemento: "str"
+      bairro: "str"
+      cep: "str"
+      uf: "str"
+      municipio: "str"
+      situacao_cadastral: "str"
+      ddd1: "str"
+      telefone1: "str"
+      ddd2: "str"
+      telefone2: "str"
+      ddd_do_fax: "str"
+      fax: "str"
+      correio_eletronico: "str"
+      situacao_especial: "str"
+      data_da_situacao_especial: "str"
+
+    socios:
+      cnpj_basico: "str"
+      identificador_de_socio: "str"
+      nome_do_socio: "str"
+      cnpj_ou_cpf_do_socio: "str"
+      qualificacao_do_socio: "str"
+      data_de_entrada_sociedade: "str"
+      pais: "str"
+      representante_legal: "str"
+      nome_do_representante: "str"
+      qualificacao_do_representante_legal: "str"
+      faixa_etaria: "str"
+
+    cnaes:
+      cnpj_basico: "str"
+      cnae_fiscal_secundaria: "str"
+
+    motivos:
+      codigo_motivo: "str"
+      descricao_motivo: "str"
+
+    municipios:
+      codigo_municipio: "str"
+      nome_municipio: "str"
+
+    natureza:
+      codigo_natureza_juridica: "str"
+      descricao_natureza_juridica: "str"
+
+    qualificacoes:
+      codigo_qualificacao: "str"
+      descricao_qualificacao: "str"
+
+    paises:
+      codigo_pais: "str"
+      nome_pais: "str"
+
+    simples:
+      cnpj_basico: "str"
+      opcao_pelo_simples: "str"
+      data_opcao_simples: "str"
+      data_exclusao_simples: "str"
