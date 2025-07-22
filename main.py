@@ -14,11 +14,7 @@ import time
 from datetime import datetime
 import shutil
 
-# Nome da Tabela do banco de dados
-# nomeTabela = input("Digite o nome da Tabala: ")
-# DBsenha = input("Digite a senha do seu DataBase: ")
-# BDdataBase = input("Digite o nome do seu DataBase: ")
-
+# Colocar conforme necessario (Só aqui que havera modificações)
 nomeTabela = 'empresas'
 DBsenha = 'SUA_SENHA_AQUI'
 BDdataBase = 'SEU_BANCO_AQUI'
@@ -39,7 +35,7 @@ DB_CONFIG = {
     "database": f"{BDdataBase}"
 }
 CHUNKSIZE = 100_000
-BATCH_SIZE = 10_000  # Tamanho do lote para inserção no MySQL
+BATCH_SIZE = 10_000 
 
 # Mapeamento de pastas para tabelas
 FOLDER_TO_TABLE = {
