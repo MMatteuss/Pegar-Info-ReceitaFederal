@@ -19,9 +19,9 @@ import shutil
 # DBsenha = input("Digite a senha do seu DataBase: ")
 # BDdataBase = input("Digite o nome do seu DataBase: ")
 
-nomeTabela = 'empresas_202506'
-DBsenha = 'Mateus2007'
-BDdataBase = 'cnpj_brasil'
+nomeTabela = 'empresas'
+DBsenha = 'SUA_SENHA_AQUI'
+BDdataBase = 'SEU_BANCO_AQUI'
 
 # Configurações
 base_url = "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj"
