@@ -69,7 +69,7 @@ O objetivo principal é **automatizar** o processo de importação massiva de da
 
 ## 👨‍💻 Agradecimentos
 
-Este projeto foi desenvolvido por **\[Seu Nome]**, com ajuda e orientação de **Wilgner**, que ensinou conceitos de descriptografia, carga de dados e automação para Telecom.
+Este projeto foi desenvolvido por **\Mateus**, com ajuda e orientação de **Wilgner**, que ensinou conceitos de descriptografia, carga de dados e automação para Telecom.
 
 ---
 
